@@ -28,12 +28,12 @@ int main() {
                 result = num1 / num2;
             else {
                 cout << "Error! Division by zero.";
-                return 1; // Exit the program with error code
+                return 1; 
             }
             break;
         default:
             cout << "Invalid operator!";
-            return 1; // Exit the program with error code
+            return 1; 
     }
 
     cout << "Result: " << result;
